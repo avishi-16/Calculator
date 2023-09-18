@@ -1,0 +1,58 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  
+}
+.Container{
+    background-color: lightseagreen;
+    padding: 40px;
+}
+.keys > button {
+    font-size: 23px;
+    color: rgb(75, 75, 75);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,3.258vw);
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 80px 80px 80px 80px;
+    gap: 13px;
+}
+.out{
+    height: 100px;
+}
+input{
+    height: 60px;
+    width: 355px;
+    font-size: 23px;
+    color: black;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.Calculator{
+    background-color: lightseagreen;
+}
+.del{
+    background-color: rgb(215, 123, 123);
+}
+.plus{
+    background-color: yellow;
+}
+.minus{
+    background-color: yellow;
+
+}
+.mul{
+    background-color: yellow;
+}
+.divs{
+    background-color: yellow;
+}
+
